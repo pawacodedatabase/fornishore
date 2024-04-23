@@ -1,0 +1,1138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'reg1';
+}
+
+/* HEADER */
+
+#section1 {
+
+    background-image: url(newimg/gray-sofa-brown-living-room-with-copy-space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+
+
+}
+
+.logo h1 {
+    /* text-shadow: 5px 5px 5px white; */
+    font-size: 40px;
+    text-shadow: 2px 2px 5px;
+    font-weight: 900;
+    color: rgb(255, 255, 252);
+    font-family: 'dance';
+}
+.head {  display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+
+.hero a {
+    margin-right: 80px;
+    text-decoration: none;
+    color: #f8f2f2;
+    font-weight: 900;
+    font-size: 20px;
+    /* backdrop-filter: blur(150px); */
+    border-radius: 10px;
+    /* border: 2px solid #ffffff; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-shadow: 5px 5px 5px black; */
+}
+
+.hero ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.hero a:hover {
+    background-color: antiquewhite;
+    color: black;
+    /* font-weight: 900; */
+    /* border: 3px solid antiquewhite; */
+    border-radius: 10px;
+    
+}
+
+
+main {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+
+}
+main h5 {
+    
+    max-width: 500px;
+    margin: auto;
+    /* width: 500px; */
+    
+    
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 10px rgb(76, 72, 72);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main p {
+    max-width: 900px;
+    margin: auto;
+    color: rgba(252, 252, 249, 0.955);
+    padding-bottom: 30px;
+    margin-top: 20px;
+    padding-top: 30px;
+    font-weight: 900;
+    backdrop-filter: blur(10px);
+    /* background-color: bisque; */
+    border-radius: 10px;
+    border: 2px solid ;
+    margin-bottom: 30px;
+
+
+}
+
+main button {
+    width: 130px;
+    padding: 20px;
+    margin: auto;
+
+}
+
+
+.hicon i{
+    color: aliceblue;
+    padding-right: 20px;
+}
+
+
+/* SECTION 2 */
+
+#section2 {
+    
+    margin: auto;
+    align-items: center;
+}
+
+
+.s2divcard {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    justify-content: center;
+    
+    
+
+}
+
+.s2divcard img {
+    width: 350px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 10px;
+    filter: blur(1px);
+  -webkit-filter: blur(1.2px);
+}
+
+.text h1 {
+    font-weight: 900;
+    text-align: center;
+    margin: 20px;
+    font-size: 2rem;
+
+}
+
+.s2box {
+    position: relative;
+}
+
+.s2txt {
+
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 150px;
+    /* text-align: center; */
+    margin-left:150px;
+    font-size: 2rem;
+    color: #fc1b1b;
+    font-family: Arial, Helvetica, sans-serif;    
+
+}
+
+.s2divcard hr {
+    width: 50px;
+    height: 20px;
+    font : 5px solid ;
+    margin: 40px
+}
+
+#section2 button {
+    width: 130px;
+    padding: 20px;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px;
+
+}
+/**SECTION3**/
+
+#section3 {
+    display: flex;
+    /* flex-direction: row; */
+    
+    margin: auto;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#section3 img {
+    width: 350px;
+    height: 400px;
+    /* margin: 30px; */
+    margin-left: 50px;
+
+}
+
+#section3 p  {
+    max-width: 350px;
+    padding-top: 30px; 
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+#section3 h1 {
+    max-width: 350px;
+    margin-left: 50px;
+    
+}
+
+.first h1 {
+    margin-top: 40px;
+    
+}
+
+
+
+
+
+/* SECTION4  */
+
+
+#section4  h5{
+    text-align: center;
+    
+}
+
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.divcard {
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+.two button{
+    border: none;
+    /* background-color: #ffffff; */
+}
+
+
+
+#section4 img {
+
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.but button {
+    width: 130px;
+    padding: 20px;
+    
+
+}
+
+
+#section4  p {
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+
+#section4 .text {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.desc {
+    display: flex;
+    padding-bottom: 20px;
+   
+}
+
+#section4 .text2 {
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+#section4 .icon {
+    margin-left: 30px;
+    margin-left: 200px;
+}
+
+#section4 i:hover {
+    color: black;
+}
+
+
+.prod {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* SECTION5 */
+
+#section5 h1 {
+    font-weight: 900;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+
+    
+}
+
+.reviews img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.firstreview h1 {
+    margin: none;
+}
+
+.firstreview {
+    margin-right: 50px;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 5px 5px 5px 5px rgba(162, 157, 157, 0.488);
+}
+
+
+/* SECTION6 */
+
+#section6 {
+    background-image: url(imgs/retro-living-room-interior-design_53876-145503.avif);
+    background-position: center;
+    height: 500px;
+    margin: 50px;
+    border-radius: 20px;
+    padding: 50px;
+    
+}
+
+
+.subscribe {
+    color: rgb(19, 20, 20);
+    text-align: center;
+    background-color: aliceblue;
+    height: 300px;
+    padding: 50px;
+    /* border-radius: 10PX; */
+    margin-top: 30px;
+    
+    
+}
+
+
+.subscribe h1 {
+
+    padding-bottom: 20px;
+    font-size: 900;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.subscribe p {
+    padding: 20PX;
+    font-size: 1.2rem; 
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+
+.subscribe input {
+
+padding:10px;
+width : 50%;
+padding-left: 40px;
+outline-style: none;
+
+}
+
+.subscribe button{
+    padding:10px;
+     background-color: black;
+     color: aliceblue;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.newi {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.newi p {
+    font-family: 'dance';
+    font-weight: 900;
+    font-size: 20px;}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+footer li {
+    padding-right: 20px;
+    color: black;
+}
+
+footer i {
+    color: black;
+}
+
+
+.icu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.cr {
+    text-align: center;
+    padding: 20px;
+}
+
+ol {
+    list-style-type: none;
+}
+
+ol a {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+ol a:hover {
+    color: #1877f2;
+}
+
+ol li {
+    padding-bottom: 30px;
+}
+
+
+ol li:first-child {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.terms li {
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+
+.terms i{
+    font-size: 18px;
+   
+}
+
+
+
+/* footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: aliceblue;
+    margin-bottom: none;
+}
+
+.footfirst {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.icon ul {
+    display: flex;
+ 
+   list-style-type: none;
+   justify-content: center;
+
+
+}
+
+.icon li {
+    margin-right: 20px;
+}
+
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+legend {
+    color: bisque;
+    padding: 10px;
+    font-weight: 900;
+}
+
+.icon textarea {
+    outline-style: none;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.icon p {
+    text-align: center;
+    font-weight: 900;
+    font-family: 'reg1';
+    margin-bottom: 20px;
+}
+
+
+.footsecond ul {
+
+    list-style-type: none;
+
+}
+
+.footsecond li {
+    padding-bottom: 50px;
+}
+
+.lorem {
+    max-width: 400px;
+    font-family: 'dance';
+}
+
+.lorem h1 {
+    padding-bottom: 30px;
+}
+
+.lorem p {
+    font-size: 20px;
+}
+
+.cr {
+    text-align: center;
+    padding: 20px;
+}
+
+.footsecond a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 900;
+}
+
+.footsecond a:hover {
+    background-color: rgb(105, 100, 100);
+    border: 5px solid rgb(105, 100, 100);
+    border-radius: 10px;
+    border-width: 15px;
+} */
+
+/* 
+///////////////////////////
+
+ANIMATION */
+
+i {
+    font-size: 30px;
+}
+
+.fb {
+    color: #1877f2;
+    animation-name: fb;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fb {
+
+    100% {transform: scale(1, 1);
+        color: aliceblue;
+    }
+
+}
+
+.tt {
+    color: #1da1f2;
+    animation-name: tt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tt {
+
+    100% {transform: scale(1, 1);
+        color: aliceblue;
+    }
+
+}
+
+.ig {
+    color: #ee2a7b ;
+    animation-name: ig;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ig {
+
+    100% {transform: scale(1, 1);
+        color: aliceblue;
+    }
+
+}
+
+.ios {
+    color: rgb(40, 39, 39);
+    animation-name: fb;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.mail {
+
+    color: rgb(234, 24, 24);
+}
+
+
+
+/* FONT */
+
+@font-face {
+    font-family: reg1;
+    src: url('fonts/ReggaeOne-Regular.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: dance;
+    src: url('fonts/DancingScript-VariableFont_wght.woff') format('woff');
+}
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+
+
+@media(max-width:700px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero a {
+
+        font-size: 15px;
+    }
+
+    .hero {
+        padding-top: 30px;
+    }
+
+    .s2divcard img{
+        width: 300px;}
+
+        
+    .hicon { padding-top: 30px;
+
+    }
+
+    .hicon i {
+        color: #f5eeee;
+        font-size: 20px;
+    }
+
+    .icu {
+      
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+
+        
+    }
+
+   main button {
+    padding-top: 10px;
+   }
+
+   
+    }
+    #section2 {
+        
+        align-items: center;
+    }
+
+    #section3  {
+        /* display: flex; */
+        /* flex-direction: column; */
+        align-items: center;
+    }
+
+    
+    
+
+    #section6 {
+        height: 700px
+    }
+
+    .reviews {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        
+    }
+
+    .firstreview {
+        margin-bottom: 30px;
+    }
+
+    .subscribe {
+        height: 500px;
+    }
+
+    .subscribe p {
+        overflow-y: scroll;
+        max-height: 200px;
+    }
+
+    .subscribe input {
+
+        margin: 25px;
+        padding:10px;
+        width : 70%;
+        /* border-radius: 10px; */
+        
+        }
+        
+        .subscribe button{
+
+            padding:10px;
+             background-color: black;
+             color: aliceblue;
+             margin-left:-100px;
+        }
+
+        .footfirst {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        
+        }
+
+        fieldset {
+            margin-top: 30px;
+        }
+
+
+
+
+
+@media(max-width:800px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero a {
+
+        font-size: 15px;
+    }
+
+    .hero {
+        padding-top: 30px;
+    }
+
+    .s2divcard img{
+        width: 250px;
+        
+
+    
+
+    }
+
+    #section3  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section6 {
+        height: 700px
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstreview {
+        margin-bottom: 30px;
+    }
+
+
+    .subscribe {
+        height: 500px;
+    }
+
+    .subscribe p {
+        overflow-y: scroll;
+        max-height: 200px;
+    }
+
+    .subscribe input {
+
+        margin: 25px;
+        padding:10px;
+        width : 70%;
+        border-radius: 10px;
+        
+        }
+        
+        .subscribe button{
+            padding:10px;
+             background-color: black;
+             color: aliceblue;
+        }
+
+        .footfirst {
+            display: flex;
+            justify-content: space-between;
+            margin: 50px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            align-items: center;
+        }
+
+        fieldset {
+            margin-top: 30px;
+        }
+
+    
+}
+
+
+
+@media(max-width:1000px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero a {
+
+        font-size: 15px;
+    }
+
+    .hero {
+        padding-top: 30px;
+    }
+
+    .s2divcard img{
+        width: 250px;
+        
+
+    
+
+    }
+
+    #section3  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section6 {
+        height: 700px
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstreview {
+        margin-bottom: 30px;
+    }
+
+
+    .subscribe {
+        height: 500px;
+    }
+
+    .subscribe p {
+        overflow-y: scroll;
+        max-height: 200px;
+    }
+
+    .subscribe input {
+
+        margin: 25px;
+        padding:10px;
+        width : 70%;
+        border-radius: 10px;
+        
+        }
+        
+        .subscribe button{
+            padding:10px;
+             background-color: black;
+             color: aliceblue;
+        }
+
+        .footfirst {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        fieldset {
+            margin-top: 30px;
+        }
+
+    
+}
+
+
+
+
+@media(max-width:500px) {
+    .head {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        
+        /* height: 100vh; */
+    }
+
+    .hero ul {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        margin: auto;
+        
+        
+        
+        
+    }
+
+    .hero a{
+        flex-wrap: wrap;
+        display: flex;
+        font-size: 10px;
+    
+    }
+
+    .hero li {
+        padding-bottom: 20px;
+        font-size: 10px;
+    }
+
+    .hicon {
+        align-items: center;
+        margin: auto;
+    }
+    /* .hero ul {
+        display: flex;
+        flex-direction: column;
+    } */
+#section6 {
+    height: 800px;
+    
+}
+        .subscribe button {
+            font-size: 10px;
+            margin: -500px;
+            margin-bottom: 50px;
+    
+        }
+
+        .subscribe h1 {
+            font-size: 30px;
+        }
+    .hero {
+        padding-top: 30px;
+    }
+
+    .s2divcard {
+        margin-top: 100px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .s2box {
+        align-items: center;
+        justify-content: center;
+    }
+    .s2divcard img{
+        width: 250px;
+        /* align-items: center; */
+
+        
+
+    
+
+    }
+
+    .s2txt {
+        margin-left: 100px;
+        /* color: #f5eeee; */
+    }
+
+    #section3  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section3 img {
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+
+    #section3 p {
+        max-width: 300px;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 40px;
+        /* justify-content: center; */
+    }
+    
+    #section3 h1 {
+        max-width: 200px;
+        text-align: center;
+        margin: auto;
+    }
+
+
+    #section6 {
+        height: 700px
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main h5 {
+        font-size: 50px;
+    }
+
+    main p {
+        max-width: 400px;
+    }
+
+    .firstreview {
+        margin-bottom: 30px;
+        font-size: 10px;
+        width: 250px;
+    }
+
+
+    .subscribe {
+        height: 500px;
+    }
+
+    .subscribe p {
+        overflow-y: scroll;
+        max-height: 200px;
+    }
+
+    .subscribe input {
+
+        margin: 25px;
+        padding:10px;
+        width : 70%;
+        border-radius: 10px;
+        
+        }
+        
+        .subscribe button{
+            padding:10px;
+             background-color: black;
+             color: aliceblue;
+        }
+
+        .footfirst {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        fieldset {
+            margin-top: 30px;
+        }
+
+    
+}
